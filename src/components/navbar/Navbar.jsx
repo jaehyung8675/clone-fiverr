@@ -62,10 +62,10 @@ const Navbar = () => {
                     </>
                   )}
                   <Link to='/orders' className='link'>
-                    Orders
+                    Order
                   </Link>
                   <Link to='/messages' className='link'>
-                    Messages
+                    Message
                   </Link>
                   <Link to='/' className='link'>
                     Logout
