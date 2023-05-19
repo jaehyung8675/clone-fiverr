@@ -8,8 +8,8 @@ const Featured = () => {
         <div className='left'>
           <h1>Find the perfect freelance services for your business</h1>
           <div className='search'>
-            <div className='searchInput'>
-              <img src='' alt='search' />
+            <div className='search-input'>
+              <img src='./img/search.png' alt='search' />
               <input type='text' placeholder='Try "building mobile app"' />
             </div>
             <button>Search</button>
@@ -22,7 +22,9 @@ const Featured = () => {
             <button>AI Services</button>
           </div>
         </div>
-        <div className='right'></div>
+        <div className='right'>
+          <img src='./img/man.png' alt='man' />
+        </div>
       </div>
     </div>
   );
